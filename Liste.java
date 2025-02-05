@@ -34,8 +34,12 @@ public class Liste<ContentType>{
         return false;
     }
 
+    public boolean isEmpty(){
+        return false;
+    }
     public ContentType getContent(){
         return null;
     }
 
+    public void setContent(ContentType pC){}
 }
