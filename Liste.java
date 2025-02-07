@@ -1,12 +1,17 @@
 public class Liste<ContentType>{
 
-    private Knoten content;
+    private ListNode<ContentType> firstElement;
+    private ListNode<ContentType> searchedElement;
+    private ListNode<ContentType> lastElement;
 
-    public Liste() {
-    content = null;
-    }
+    public Liste() {}
 
     public void next() {
+
+    }
+    public Liste(ContentType item){
+        ListNode<ContentType>
+
 
     }
 
